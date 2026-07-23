@@ -4,10 +4,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-white/10 px-6 py-14 md:px-8">
       <div className="mx-auto max-w-6xl">
-        <p className="font-heading text-lg italic text-cc-gold/90">
-          Cleveratus among the Cleverati.
-        </p>
-        <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-white/70">
+        <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-white/70">
           <Link href="/privacy" className="transition hover:text-cc-gold">
             Privacy Policy
           </Link>
@@ -19,7 +16,7 @@ export default function Footer() {
           </Link>
         </div>
         <p className="mt-10 text-xs text-white/45">
-          © 2026 Vinches Designs. All rights reserved.
+          © 2026 Thousand Year Play, Inc. All rights reserved.
         </p>
       </div>
     </footer>
