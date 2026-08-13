@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useId, useState } from "react";
 
 import NewsHubButton from "@/components/NewsHubButton";
+import { appStoreLinkProps } from "@/lib/appStore";
 
 const menuLinks = [
   { href: "/", label: "Home" },
@@ -57,7 +58,7 @@ export default function Navbar() {
 
         <div className="flex items-center gap-3">
           <NewsHubButton
-            href="/#download"
+            {...appStoreLinkProps}
             label="Download Free"
             className="min-h-0 px-4 py-2 md:px-5"
           />

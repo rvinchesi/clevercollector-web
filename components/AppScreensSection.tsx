@@ -41,7 +41,7 @@ type ScreenBlock = {
 };
 
 const INTRO_COPY = [
-  "CleverCollector curates blog and video content links for watch collectors and other collector communities and allows collectors to engage with each other and/or just enjoy great industry content refreshed several times a day.",
+  "CleverCollector curates blog and video content links for collector communities and allows collectors to engage with each other and/or just enjoy great industry content refreshed several times a day.",
   "CleverCollector started out as a place for watch lovers to scroll the latest blog and video news about the world of watch collecting, but I've expanded it to offer the same curated news feeds for Car collectors, Vinyl record collectors, Pipe and tobacco enthusiasts, and Whisky enthusiasts. Soon to come is a Wine enthusiast ecosystem, and then Sneakers, and more over time.",
   "But it's more than just a curated news and video scroll for each ecosystem: it's a place to catalog your watch collection (or car collection, etc) by brand and model, and create a wish list, and then find stories about those particular items from databases that stretch back 15 or more years. If a particular vintage car caught your eye, you could add it to your wish list and then find blog links from the leading car blogs about that specific car. There are over 200,000 story links in the car database, all tagged by make and model. Each ecosystem has brand / model tagging that opens up a world of rich collector content.",
   "CleverCollector also has two ways to share content with other enthusiasts: a community scroll, much like Instagram, where users post images of their collection and whatever else interests them, and a Forums section where users post longer-form threaded discussions about topics of interest.",
@@ -54,7 +54,7 @@ const SCREEN_BLOCKS: ScreenBlock[] = [
     heading: "News Home Screens",
     anchorId: "news",
     description:
-      "Enjoy hundreds of thousands of curated Blog links from the world's top collector publishers. Refreshed several times a day. Click a link and your browser takes you to the blog story on the blog's own website. Scroll all stories, or pick a single blog to focus on.",
+      "Enjoy hundreds of thousands of curated Blog links from the world's top collector publishers. Refreshed several times a day. Click a link and your browser takes you to the blog story on the blog's own website. Scroll all stories, or pick a single blog to focus on, or filter by Brand(s) and follow only those stories.",
     items: [
       {
         label: "Watches",

@@ -1,4 +1,5 @@
 import NewsHubButton from "@/components/NewsHubButton";
+import { appStoreLinkProps } from "@/lib/appStore";
 import {
   SECTION_BODY_CLASS,
   SECTION_TITLE_CLASS,
@@ -23,7 +24,7 @@ export default function ContactSection() {
         </p>
         <div id="download" className="mt-10 flex justify-center scroll-mt-24">
           <NewsHubButton
-            href="#"
+            {...appStoreLinkProps}
             label="Download on the App Store"
             className="min-w-[240px] px-8"
             aria-label="Download on the App Store"

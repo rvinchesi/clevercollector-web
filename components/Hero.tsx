@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import NewsHubButton from "@/components/NewsHubButton";
+import { appStoreLinkProps } from "@/lib/appStore";
 
 export default function Hero() {
   return (
@@ -65,7 +66,7 @@ export default function Hero() {
                 &gt;
               </span>
               <NewsHubButton
-                href="#download"
+                {...appStoreLinkProps}
                 label="Download on the App Store"
                 className="min-w-[240px] px-8"
               />
