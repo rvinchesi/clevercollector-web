@@ -13,6 +13,9 @@ const siteUrl = "https://www.clevercollector.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  verification: {
+    google: "TGKF5giDv9YQH0Mtulch30vmZ0hEB_XwONxszzodbxo",
+  },
   title: "CleverCollector — Curated blogs, video & community",
   description:
     "250,000+ curated blog and video links for collectors. Forums and community sharing with fellow collectors. Free on iOS.",
