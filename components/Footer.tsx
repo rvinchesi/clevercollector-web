@@ -11,6 +11,12 @@ export default function Footer() {
           <span className="hidden text-white/30 sm:inline" aria-hidden>
             ·
           </span>
+          <Link href="/delete-account" className="transition hover:text-cc-gold">
+            Delete Account
+          </Link>
+          <span className="hidden text-white/30 sm:inline" aria-hidden>
+            ·
+          </span>
           <Link href="/#contact" className="transition hover:text-cc-gold">
             Contact
           </Link>

@@ -5,11 +5,11 @@
 :root {
   --cc-navy: #0a1628;
   --cc-gold: #b8872a;
-  /* Watches-inspired gradient — extra light for element contrast */
-  --cc-watches-gradient-top: #e8edf5;
-  --cc-watches-gradient-mid: #c8d4e6;
-  --cc-watches-gradient-deep: #a8b8d4;
-  --cc-watches-gradient-bottom: #8fa3c4;
+  /* Sky-blue radial (Experience-style) — cooler blues, less periwinkle */
+  --cc-watches-gradient-top: #eef7fd;
+  --cc-watches-gradient-mid: #b8d4ef;
+  --cc-watches-gradient-deep: #6a9cc8;
+  --cc-watches-gradient-bottom: #4a7fb3;
 }
 
 html {
@@ -22,11 +22,12 @@ body {
   color: #ffffff;
   min-height: 100%;
   background-color: var(--cc-watches-gradient-bottom);
-  background-image: linear-gradient(
-    180deg,
+  background-image: radial-gradient(
+    ellipse 85% 75% at 50% 40%,
     var(--cc-watches-gradient-top) 0%,
-    var(--cc-watches-gradient-mid) 28%,
-    var(--cc-watches-gradient-deep) 62%,
+    #d9ebf8 30%,
+    var(--cc-watches-gradient-mid) 58%,
+    var(--cc-watches-gradient-deep) 82%,
     var(--cc-watches-gradient-bottom) 100%
   );
   background-attachment: fixed;

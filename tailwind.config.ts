@@ -17,9 +17,9 @@ const config: Config = {
       },
       backgroundImage: {
         "cc-gradient":
-          "linear-gradient(180deg, #e8edf5 0%, #c8d4e6 28%, #a8b8d4 62%, #8fa3c4 100%)",
+          "radial-gradient(ellipse 85% 75% at 50% 40%, #eef7fd 0%, #d9ebf8 30%, #b8d4ef 58%, #6a9cc8 82%, #4a7fb3 100%)",
         "cc-watches-gradient":
-          "linear-gradient(180deg, #e8edf5 0%, #c8d4e6 28%, #a8b8d4 62%, #8fa3c4 100%)",
+          "radial-gradient(ellipse 85% 75% at 50% 40%, #eef7fd 0%, #d9ebf8 30%, #b8d4ef 58%, #6a9cc8 82%, #4a7fb3 100%)",
       },
     },
   },

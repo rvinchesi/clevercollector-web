@@ -24,7 +24,7 @@ export default function Hero() {
             />
           </div>
           <div className="w-full flex-1 md:pl-1 lg:pl-2">
-            <ul className="font-heading space-y-3 text-left text-xl font-bold leading-relaxed text-[#0d1b4b]/90 [text-shadow:0_1px_1px_rgba(255,255,255,0.35)] md:space-y-4 md:text-2xl">
+            <ul className="space-y-3 text-left text-xl font-bold leading-relaxed text-[#0d1b4b]/90 [text-shadow:0_1px_1px_rgba(255,255,255,0.35)] md:space-y-4 md:text-2xl">
               <li className="flex gap-3">
                 <span
                   className="shrink-0 font-semibold text-[#b8872a]"
